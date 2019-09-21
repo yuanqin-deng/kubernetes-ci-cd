@@ -30,8 +30,8 @@ spec:
         tier: hello-cicd
     spec:
       containers:
-      - image: 127.0.0.1:30400/hello-me:latest
-        name: hello-me
+      - image: 127.0.0.1:30400/hello-cicd:latest
+        name: hello-cicd
         ports:
         - containerPort: 80
           name: hello-cicd
