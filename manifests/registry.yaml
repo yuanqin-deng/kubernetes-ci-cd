@@ -10,7 +10,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   hostPath:
-    path: "/data/registry/"
+    path: "/Users/yuanqindeng/Documents/learnMyself/docker/cicd/cicd-k8s/cicd-k8s-docker/src/kubernetes-ci-cd/data/registry"
 
 ---
 kind: PersistentVolumeClaim
